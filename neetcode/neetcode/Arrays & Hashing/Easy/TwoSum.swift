@@ -48,7 +48,7 @@ import Foundation
 //    }
 //}
 
-class Solution {
+class TwoSumSolution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         if (nums.count) == 2 {
             return [0,1]
