@@ -32,7 +32,7 @@ import Foundation
 //    }
 //}
 
-class Solution {
+class HasDuplicateSolution {
     func hasDuplicate(_ nums: [Int]) -> Bool {
         var uniqueNums: Set<Int> = []
         for i in nums {
