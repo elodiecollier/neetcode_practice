@@ -42,7 +42,7 @@ import Foundation
 //    }
 //}
 
-class Solution {
+class BestTimeToBuyAndSellStockSolution {
     func maxProfit(_ prices: [Int]) -> Int {
         if prices.count < 2 {
             return 0
