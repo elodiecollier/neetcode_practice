@@ -39,7 +39,7 @@ import Foundation
 //    }
 //}
 
-class Solution {
+class TopKSolution {
     func topKFrequent(_ nums: [Int], _ k: Int) -> [Int] {
         var numsDictionary = [Int : Int]()
         
