@@ -38,7 +38,7 @@ import Foundation
 //    }
 //}
 
-class Solution {
+class LongestSubstringWithoutRepeatingCharactersSolution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
         var uniqueString = Set<Character>()
         var left = 0
