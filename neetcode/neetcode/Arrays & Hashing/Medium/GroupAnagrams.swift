@@ -42,7 +42,7 @@ import Foundation
 //    }
 //}
 
-class Solution {
+class GroupAnagramsSolution {
     func groupAnagrams(_ strs: [String]) -> [[String]] {
         var anagramDictionary = [String : [String]]()
         // [sorted version of word : [words that match]]
