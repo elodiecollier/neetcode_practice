@@ -42,7 +42,7 @@ import Foundation
 //    }
 //}
 
-class Solution {
+class ValidPalindromeSolution {
     func isPalindrome(_ s: String) -> Bool {
         
         var sLowercase = Array(s.lowercased())
