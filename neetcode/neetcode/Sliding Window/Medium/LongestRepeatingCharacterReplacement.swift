@@ -38,7 +38,7 @@ import Foundation
 //    }
 //}
 
-class Solution {
+class LongestRepeatingCharacterReplacementSolution {
     func characterReplacement(_ s: String, _ k: Int) -> Int {
         if (k == s.count) { // if k and s are same length, return k
             return k
