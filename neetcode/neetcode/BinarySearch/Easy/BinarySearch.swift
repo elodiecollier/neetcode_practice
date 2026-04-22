@@ -39,7 +39,7 @@ import Foundation
 //    }
 //}
 
-class Solution {
+class BinarySearchSolution {
     func search(_ nums: [Int], _ target: Int) -> Int {
         var left = 0
         var right = nums.count - 1
