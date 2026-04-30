@@ -69,7 +69,7 @@ class ListNode {
 
 // [0] → [1] → [2] → [3] → nil
 
-class Solution {
+class ReversedLinkedListSolution {
     func reverseList(_ head: ListNode?) -> ListNode? {
 
         if head == nil {
